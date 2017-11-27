@@ -11,7 +11,8 @@
 
 
 框架部分基于AdminLTE，自定义扩展部分的文件说明如下：
-    adminlte-ext\css\adminlte-ext.css    扩展的公共样式，例如：修改原始的样式、字体大小、遮罩层样式等；
-    adminlte-ext\js\adminlte-ext.js      基础的库的扩展，例如：javascript原型扩展、jQuery扩展、bug修复、ajax扩展等；
-    adminlte-ext\plugins                 自定义组件、扩展组件，包含组件的css、js；
+    adminlte-ext/img                     扩展样式用到的图片；
+    adminlte-ext/css/adminlte-ext.css    扩展的公共样式，例如：修改原始的样式、字体大小、遮罩层样式等；
+    adminlte-ext/js/adminlte-ext.js      基础的库的扩展，例如：javascript原型扩展、jQuery扩展、bug修复、ajax扩展等；
+    adminlte-ext/plugins                 自定义组件、扩展组件，包含组件的css、js；
 
