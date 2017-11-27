@@ -1,0 +1,72 @@
+[{
+	"title": "代码管理",
+	"icon": "fa-book",
+	"action": "navtab",
+	"code": "codeTab",
+	"url": "pages/test-code.html"
+}, {
+	"title": "多级菜单",
+	"icon": "fa-circle-o",
+	"children": [{
+		"title": "多级菜单-二级1",
+		"icon": "fa-circle-o"
+	}, {
+		"title": "多级菜单-二级2",
+		"icon": "fa-circle-o",
+		"children": [{
+			"title": "多级菜单-三级1",
+			"icon": "fa-circle-o"
+		}, {
+			"title": "多级菜单-三级2",
+			"icon": "fa-circle-o"
+		}, {
+			"title": "多级菜单-三级3",
+			"icon": "fa-circle-o",
+			"action": "navtab",
+			"code": "testLevel3",
+			"url": "pages/test-level3.html"
+		}]
+	}]
+}, {
+	"title": "组件测试",
+	"icon": "fa-circle-o",
+	"action": "navtab",
+	"url": "pages/test-component.html"
+}, {
+
+	"title": "表单验证测试",
+	"icon": "fa-th",
+	"action": "navtab",
+	"code": "validationTab",
+	"url": "pages/test-validation.html"
+}, {
+	"title": "404页面测试",
+	"icon": "fa-circle-o",
+	"action": "navtab",
+	"code": "err404Tab",
+	"url": "pages/123.html"
+}, {
+	"title": "403页面测试",
+	"icon": "fa-circle-o",
+	"action": "navtab",
+	"code": "errorTab",
+	"url": "pages/test-403.html"
+}, {
+	"title": "错误JSON测试",
+	"icon": "fa-circle-o",
+	"action": "navtab",
+	"code": "errorJSONTab",
+	"url": "json/error.json"
+}, {
+	"title": "会话超时测试",
+	"icon": "fa-circle-o",
+	"action": "navtab",
+	"code": "timeoutTab",
+	"url": "timeout.html"
+}, {
+	"title": "嵌入iframe测试",
+	"icon": "fa-circle-o",
+	"action": "navtab-iframe",
+	"code": "testIframe",
+	"url": "http://www.baidu.com"
+}]

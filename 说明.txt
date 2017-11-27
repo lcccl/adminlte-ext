@@ -1,0 +1,17 @@
+该工程是基于AdminLTE框架的扩展，提供了新的UI组件、并重新封装、扩展了bootstrap的部分组件。
+该工程本身除了框架部分同时也是一个演示Demo，入口：index.html。
+
+
+工程结构说明：
+    1、adminlte-ext：AdminLTE框架的扩展，包含公共扩展的css、js以及扩展组件库；       
+        plugins目录为扩展的组件库，包含常用的navtab、menu、msgbox、datatables等组件；
+    2、bower_components：第三方组件库；
+    3、js：公共的页面脚本；
+    4、pages：页面；
+
+
+框架部分基于AdminLTE，自定义扩展部分的文件说明如下：
+    adminlte-ext\css\adminlte-ext.css    扩展的公共样式，例如：修改原始的样式、字体大小、遮罩层样式等；
+    adminlte-ext\js\adminlte-ext.js      基础的库的扩展，例如：javascript原型扩展、jQuery扩展、bug修复、ajax扩展等；
+    adminlte-ext\plugins                 自定义组件、扩展组件，包含组件的css、js；
+
