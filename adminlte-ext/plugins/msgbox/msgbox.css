@@ -37,3 +37,7 @@
     border: none;
     overflow: auto;
 }
+
+.modal-msgbox .modal-body p {
+	word-break: break-word;
+}
