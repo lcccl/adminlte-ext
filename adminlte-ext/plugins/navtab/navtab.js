@@ -495,7 +495,7 @@
 		}
 
 		// 附加数据
-		me.data = $.extend({}, config.extData);
+		me.extData = $.extend({}, config.extData);
 
 		// 调用EventHandler的构造函数初始化事件
 		pluginCtx.EventHandler.call(me, config.events);
@@ -576,12 +576,10 @@
 		 * get/set附加数据
 		 */
 		data: function(name, value) {
-			var data = this.data;
-
-			if (arguments.length == 1) {
-				return data[name];
+			if (arguments.length == 2) {
+				this.extData[name] = value;
 			} else {
-				data[name] = value;
+				return this.extData[name];
 			}
 		}
 	};

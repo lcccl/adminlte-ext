@@ -27,6 +27,8 @@
 	var MsgBox = function(params) {
 		this.params = $.extend({}, params);
 		this.events = $.extend({}, params.events);
+		// 附加数据
+		this.extData = $.extend({}, params.extData);
 		this.init();
 	};
 
@@ -133,6 +135,14 @@
 		dispose: function() {
 			this.box.removeData("bs.modal");
 			this.box.remove();
+		},
+
+		data: function(name, value) {
+			if (arguments.length == 2) {
+				this.extData[name] = value;
+			} else {
+				return this.extData[name];
+			}
 		}
 	};
 
