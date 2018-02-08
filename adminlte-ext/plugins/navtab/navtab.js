@@ -537,7 +537,7 @@
 				me.queryParams = params.data,
 				me.html = params.html;
 				// 更新附加数据
-				$.extend(me.data, params.extData);
+				$.extend(me.extData, params.extData);
 			}
 
 			if (me.html) {
