@@ -66,8 +66,8 @@ AdminExt.evaluate(function(ctx, $) {
 				} else {
 					obj[this.name] = $(this).val();
 				}
-			});
-			$('select', this).each(function() {
+			});			
+			$('select,textarea', this).each(function() {
 				obj[this.name] = $(this).val();
 			});
 			return obj;
